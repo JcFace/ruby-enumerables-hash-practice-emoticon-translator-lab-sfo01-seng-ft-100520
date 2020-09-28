@@ -26,6 +26,7 @@ end
 def get_english_meaning(file, emotion)
   new_library = load_library(file)
  new_library.each do |key, value| 
+   binding.pry
    if emotion == value[:japanese]
      return value[:english]
 end

@@ -5,7 +5,7 @@ require 'pry'
 def load_library(file)
 nihon_emoticons = YAML.load_file(file)
 nihon_emoticons.each_with_object({}) do 
-binding.pry
+#binding.pry
 end 
  
 

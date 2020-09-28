@@ -28,7 +28,7 @@ def get_english_meaning(file, emotion)
  new_library.each do |key, value| 
    binding.pry
    if emotion == value[:japanese]
-     return value[:english]
+    emotion = value[:english]
 end
 end 
 "Sorry, that emoticon was not found"

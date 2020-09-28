@@ -16,11 +16,3 @@ def get_english_meaning(file, emoticon)
   # code goes here
 end
 
-#nihon_emoticons.each_with_object({}) do |(key, value),
-#new_file| 
-#value.each do |emotion, translation|
- # if !new_filep[key]
-   # new_file[key] = {}
-#end
-#end
-#end

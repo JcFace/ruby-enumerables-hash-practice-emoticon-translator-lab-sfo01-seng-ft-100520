@@ -17,10 +17,10 @@ def get_english_meaning(file, emoticon)
 end
 
 #nihon_emoticons.each_with_object({}) do |(key, value),
-#nihon_new| 
+#new_file| 
 #value.each do |emotion, translation|
- # if !nihon_new[key]
-   # nihon_new[key] = {}
+ # if !new_filep[key]
+   # new_file[key] = {}
 #end
 #end
 #end

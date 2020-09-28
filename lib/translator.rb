@@ -9,7 +9,7 @@ new_file|
 value.each do |emotion, language|
  if !new_file[key]
    new_file[key] = {"english":{}, "japanese":{}} 
-  if !new_file["english"]
+  if new_file["english"]
      new_file["english"] = emotion
  # binding.pry
 end 

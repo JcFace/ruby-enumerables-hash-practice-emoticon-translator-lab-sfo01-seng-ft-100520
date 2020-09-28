@@ -6,7 +6,6 @@ def load_library(file)
 nihon_emoticons = YAML.load_file(file)
 nihon_emoticons.each_with_object({}) do |(key, value),
 new_file| 
-value.each do |emotion, language|
  if !new_file[key]
    new_file[key] = {"english":{emotion}, "japanese":{language}} 
   binding.pry

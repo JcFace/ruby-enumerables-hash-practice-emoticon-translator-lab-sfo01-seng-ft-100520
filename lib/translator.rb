@@ -12,7 +12,7 @@ end
  
 
 def get_japanese_emoticon(file, emotion)
- 
+ load_file(file)
 end
 
 def get_english_meaning(file, emoticon)

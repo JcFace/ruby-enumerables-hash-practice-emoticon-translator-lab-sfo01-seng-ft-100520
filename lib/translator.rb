@@ -9,6 +9,7 @@ nihon_emoticons.each_with_object({})
   value.each do |english, japanese|
 binding.pry
 end 
+end 
 
 def get_japanese_emoticon
  

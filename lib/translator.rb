@@ -4,7 +4,14 @@ require 'pry'
 
 def load_library(file)
 nihon_emoticons = YAML.load_file(file)
-new_file = {}
+nihon_emoticons.each_with_object({}) do |(key, value),
+new_file| 
+value.each do |emotion, translation|
+ if !new_filep[key]
+   new_file[key] = {}
+end 
+end
+end
 end
  
 

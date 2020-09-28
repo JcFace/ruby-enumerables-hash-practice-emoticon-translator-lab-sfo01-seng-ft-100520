@@ -14,9 +14,8 @@ end
 def get_japanese_emoticon(file, emotion)
  new_library = load_library(file)
  new_library.each do |key, value|
-
    if emotion == value["english"]
-     
+        binding.pry
     return value["japanese"]
  #binding.pry
 end

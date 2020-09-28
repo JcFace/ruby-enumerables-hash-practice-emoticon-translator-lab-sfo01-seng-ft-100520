@@ -9,7 +9,6 @@ new_file|
 value.each do |emotion, language|
  if !new_file[key]
    new_file[key] = {"english":, "japanese": {}}
-
 end 
 end
 end

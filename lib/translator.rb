@@ -7,7 +7,7 @@ nihon_emoticons = YAML.load_file(file)
 nihon_emoticons.map
 binding.pry
 end 
-end 
+ 
 
 def get_japanese_emoticon
  

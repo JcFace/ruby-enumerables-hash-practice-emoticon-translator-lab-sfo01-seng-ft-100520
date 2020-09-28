@@ -11,7 +11,7 @@ value.each do |emotion, language|
    new_file[key] = {"english":{}, "japanese":{}} 
   if new_file[key]["english"]
      new_file[key]["english"] = emotion
- # binding.pry
+  binding.pry
 end 
 end
 end

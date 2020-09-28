@@ -16,6 +16,7 @@ end
 end
 end
 end
+end 
  
 
 def get_japanese_emoticon(file, emotion)

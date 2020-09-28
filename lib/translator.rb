@@ -8,9 +8,7 @@ nihon_emoticons.each_with_object({}) do |(key, value),
 new_file| 
 value.each do |emotion, language|
  if !new_file[key]
-   new_file[key] = {"english":{}, "japanese":{}} 
-  if new_file[key]["english"]
-     new_file[key]["english"] = emotion
+   new_file[key] = {"english":{emotion}, "japanese":{language}} 
   binding.pry
 end 
 end

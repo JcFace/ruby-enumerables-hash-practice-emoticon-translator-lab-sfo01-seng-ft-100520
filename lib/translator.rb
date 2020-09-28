@@ -9,6 +9,8 @@ new_file|
 value.each do |emotion, language|
  if !new_file[key]
    new_file[key] = {}
+   if !new_file[key][value]
+     new_file[key][value] = 
 end 
 end
 end
